@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/namitos/node-ws-client-wrapper/issues"
   },
-  "homepage": "https://github.com/namitos/node-ws-client-wrapper#readme"
+  "homepage": "https://github.com/namitos/node-ws-client-wrapper#readme",
+  "dependencies": {
+    "ws": "^6.1.3"
+  }
 }
