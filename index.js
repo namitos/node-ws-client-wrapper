@@ -1,6 +1,9 @@
 const WebSocket = require('ws');
 const EventEmitter = require('events');
-const { wait } = require('./util');
+const wait = (ms) =>
+  new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
 
 module.exports = class WSWrapper extends EventEmitter {
   /**
